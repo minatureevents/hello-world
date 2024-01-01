@@ -1,0 +1,42 @@
+.display-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    color: #231f20;
+    background-color:#eecfcd;
+    font-family: Helvetica, sans;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.42105263;
+    padding: 0;
+    margin: 0;
+    touch-action: manipulation;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #f8f8f8;
+    }
+  }
+
+  header{
+    width:33%;
+    margin: 0 auto;
+  }
+  .hero{
+    width:100%;
+  }
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
