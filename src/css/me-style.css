@@ -29,14 +29,27 @@
   }
 
   header{
-    width:33%;
+    width:40%;
     margin: 0 auto;
   }
+
+  @media screen and (max-width:764px) {
+    header{width:80%;}
+  }
+
   .hero{
     width:100%;
+    padding-left: 45px;
+    clip-path: circle(40%);
   }
   h1{
     text-align: center;
     text-transform: uppercase;
+    line-height: 1.2;
+    opacity: 0.8;
+  }
+  p{
+    font-size: 16px;
+    text-align: center;
   }
   
